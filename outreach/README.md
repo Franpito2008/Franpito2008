@@ -12,29 +12,35 @@ Texas con sitio web obsoleto, caído o inexistente (todas con email verificado).
 ## Personalización aplicada
 - Asunto: `A website concept for {Nombre de la empresa}`
 - Saludo: `Hi {Nombre de la empresa} Team,`
+- El video va como **link de Google Drive en el cuerpo** (no adjunto).
+- Pie con línea de baja ("reply unsubscribe") + dirección postal.
 - El resto del cuerpo es tu copy original, sin cambios.
 - No se inventó ningún nombre de contacto (uso "{Empresa} Team" para no adivinar personas).
 
+## ⚠️ Pendiente antes de enviar
+1. **Reemplazar la dirección postal**: en el cuerpo aparece el placeholder
+   `[REEMPLAZAR CON TU DIRECCION POSTAL REAL...]`. Hay que poner una dirección real
+   (casa, PO Box o buzón virtual). No se inventa por ley (CAN-SPAM).
+2. **Compartir el video de Drive como "Cualquiera con el enlace"**, si no los
+   destinatarios no lo van a poder ver.
+3. **App Password de Google** para `francosamtoni@gmail.com`.
+
 ## Cómo enviar
 ```bash
-export GMAIL_USER="tucorreo@gmail.com"
+export GMAIL_USER="francosamtoni@gmail.com"
 export GMAIL_APP_PASSWORD="xxxx xxxx xxxx xxxx"   # App Password de Google
 # Prueba sin enviar:
 python3 send_emails.py --dry-run
 # Prueba real a 1 empresa:
-python3 send_emails.py --video /ruta/al/video.mp4 --reply-to tu@correo.com --limit 1
+python3 send_emails.py --limit 1
 # Envío completo:
-python3 send_emails.py --video /ruta/al/video.mp4 --reply-to tu@correo.com
+python3 send_emails.py
 ```
-El script espera 40–90 s aleatorios entre cada envío y registra todo en `sent_log.csv`
+El video ya va como link en el cuerpo, así que NO hace falta `--video`.
+El script espera 40–90 s aleatorios entre cada envío y registra en `sent_log.csv`
 (podés reanudar con `--start N`).
 
-## Antes de enviar — leer
-1. **Adjuntar el video**: hay que pasar el archivo del video de 20 s con `--video`.
-2. **Riesgo de spam**: 81 cold-emails desde un Gmail común, con video pesado adjunto,
-   pueden marcar la cuenta. Mejor: subir el video a un link (YouTube no listado /
-   Loom / Drive) y poner el link en el cuerpo, en vez de adjuntarlo. Para volumen
-   serio conviene una plataforma con calentamiento de dominio (Instantly, Lemlist).
-3. **Legal (CAN-SPAM, EE.UU.)**: el email comercial debe incluir una dirección
-   postal física real y una forma de darse de baja. Conviene agregar esas 2 líneas
-   al pie antes de enviar.
+## Riesgo
+81 cold-emails desde un Gmail común pueden activar filtros de spam aunque el video
+sea un link. El envío lento (1 por vez con pausas) ayuda. Para volumen serio conviene
+una plataforma con calentamiento de dominio (Instantly, Lemlist).
