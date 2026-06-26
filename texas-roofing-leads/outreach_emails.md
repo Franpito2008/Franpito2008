@@ -1,233 +1,243 @@
-# Personalized outreach emails — Landing page **redesign** offer
+# Personalized outreach emails — Landing page **redesign**, closed over email
 
-Cold emails for the 10 Texas roofing companies. Written in **English** (recipients are U.S. businesses).
-Each one references the **specific problem** found on the company's current site, so it reads as
-genuinely personalized — not a mass blast. Replace `[Your Name]` / `[Your Studio]` / `[your phone]`
-/ `[portfolio link]` before sending.
+Cold emails for the 10 Texas roofing companies. Written in **English** (recipients are U.S.
+businesses). Each one:
+- references the **specific problem** found on the company's current site (genuine personalization),
+- references your **20-second screen recording** of the roofing landing page you built in Miami
+  (attach the video file to every email — it's the trust/credibility hook),
+- is built to **close the deal over email** (no calls): the call-to-action is a simple reply.
 
-> Tip: keep sending volume low and personalize the first line further if you can (mention a recent
-> review, a project photo, etc.). Cold email works best at 20–30/day from a warmed-up inbox.
+Replace `[Your Name]` / `[Your Studio]` / `[price]` / `[your email/site]` before sending.
+**Remember to attach the 20-second screen recording to each email.**
+
+> Tip: keep volume low (20–30/day from a warmed-up inbox). The attached video is your strongest
+> asset — lead with it.
 
 ---
 
 ## 1. Martinez Roofing 254 LLC
 **To:** martinezroofing254@yahoo.com
-**Subject:** Quick idea for Martinez Roofing 254's website
+**Subject:** I made a 20-second video of what Martinez Roofing 254's new site could look like
 
 Hi Martinez Roofing 254 team,
 
-I came across Martinez Roofing 254 while looking at roofing contractors in Texas, and I took a
-look at your website. It's a solid foundation, but the site looks like it hasn't had a refresh
-since around 2020 — and these days homeowners almost always judge a roofer by their site before
-they ever call.
+I design websites for roofing companies, and while looking at contractors in Texas I noticed your
+site hasn't had a refresh since around 2020 — and these days homeowners judge a roofer by their
+website before they ever reach out.
 
-I design clean, modern landing pages specifically for roofing companies — built to load fast on
-phones, show off your work, and turn visitors into estimate requests.
+I attached a **20-second screen recording** of a landing page I recently built for a roofing
+company in Miami, so you can see exactly the kind of clean, modern result I'd create for you. I'd
+redesign your current page into something just like it — fast, mobile-first, and built to turn
+visitors into estimate requests.
 
-I'd be happy to redesign your current page and send you a free mockup first, so you can see the
-difference before committing to anything. Would it be worth a quick 10-minute call this week?
+Everything can be handled right here over email. If you like what you see in the video, just reply
+and I'll send you a free mockup of your redesigned homepage plus simple flat pricing — no calls, no
+pressure.
 
 Best,
 [Your Name]
-[Your Studio] · [your phone] · [portfolio link]
+[Your Studio] · [your email/site]
 
 ---
 
 ## 2. Roofing On Demand
 **To:** info@roofingondemand.com
-**Subject:** Roofing On Demand — your site looks stuck in 2019
+**Subject:** 20 seconds that could replace Roofing On Demand's outdated site
 
 Hi Roofing On Demand team,
 
-I was researching roofing companies around Beaumont and stopped on your website. The name is
-great, but the site itself feels a few years behind (the content looks like it hasn't been touched
-since 2019), and it's still loading over an unsecured connection — which Chrome now flags to
-visitors.
+Great name — but your website feels a few years behind (the content looks untouched since 2019)
+and still loads over an unsecured connection, which Chrome flags to your visitors.
 
-I redesign roofing websites into fast, modern, mobile-first landing pages that actually convert
-the people Googling "roofer near me" into phone calls.
+I attached a **20-second screen recording** of a roofing landing page I built for a company in
+Miami so you can see the quality first-hand. I'd redesign your site into the same kind of fast,
+modern, mobile-first page — built to turn "roofer near me" searches into actual calls.
 
-I can put together a free redesign mockup of your homepage so you can see exactly what it would
-look like — no obligation. Open to taking a look?
+We can do this entirely over email. If the video looks like the direction you want, just reply and
+I'll send a free mockup of your new homepage and a flat price to get it done. No calls needed.
 
 Best,
 [Your Name]
-[Your Studio] · [your phone] · [portfolio link]
+[Your Studio] · [your email/site]
 
 ---
 
 ## 3. Texas Coastal Roofing and Construction LLC
 **To:** texascoastalroofing@gmail.com
-**Subject:** A fresh look for Texas Coastal Roofing's site
+**Subject:** Watch this 20-sec clip before your next Corpus Christi customer judges your site
 
 Hi Texas Coastal Roofing team,
 
-I help roofing contractors in Texas get more leads from their websites, and while looking around
-Corpus Christi I landed on yours. The business clearly has a strong reputation — but the website
-looks dated (it hasn't been refreshed since about 2020) and isn't doing your work justice.
+Your reputation around Corpus Christi is clearly strong — but your website looks dated (it hasn't
+been refreshed since about 2020) and isn't doing your work justice.
 
-I'd love to redesign your current page into a modern, mobile-friendly landing page built to bring
-in more estimate requests — clean layout, your project photos front and center, and a clear "get a
-free quote" button.
+I attached a **20-second screen recording** of a landing page I built for a roofing company in
+Miami so you can see the standard I work to. I'd redesign your current page into the same kind of
+modern, mobile-friendly site — your project photos up front and a clear "get a free quote" button.
 
-I can send you a free mockup of the redesigned homepage first. Want me to put one together?
+It's all handled over email. If you like the video, reply and I'll send a free mockup of your
+redesigned homepage and straightforward pricing — no calls, no obligation.
 
 Best,
 [Your Name]
-[Your Studio] · [your phone] · [portfolio link]
+[Your Studio] · [your email/site]
 
 ---
 
 ## 4. AM Roofing Company
 **To:** info@amroofingcompany.com
-**Subject:** AM Roofing — your website shows up nearly blank on phones
+**Subject:** AM Roofing — here's the website your Dallas customers should be seeing (20-sec video)
 
 Hi AM Roofing team,
 
-I was looking at roofing companies in Dallas and clicked through to your website from your Google
-listing. Heads up: on mobile it comes up almost empty and isn't mobile-friendly — which means most
-of the homeowners finding you on their phones are probably bouncing before they ever see what you
-offer.
+I clicked your website from your Google listing and wanted to give you a heads up: on a phone it
+comes up almost empty and isn't mobile-friendly — so most homeowners finding you on mobile are
+likely leaving before they see what you offer.
 
-That's a quick fix. I design modern, mobile-first landing pages for roofers that load instantly and
-turn visitors into calls and quote requests.
+I attached a **20-second screen recording** of a roofing landing page I built in Miami so you can
+see what yours could look like instead — clean, instant-loading, and built for phones. I'd redesign
+your page to match.
 
-I'd be glad to redesign your page and show you a free mockup first, so you can see the difference
-side by side. Worth a quick chat?
+We can wrap this up entirely over email. If the video looks good to you, just reply and I'll send a
+free mockup of your new homepage and a flat price. No call required.
 
 Best,
 [Your Name]
-[Your Studio] · [your phone] · [portfolio link]
+[Your Studio] · [your email/site]
 
 ---
 
 ## 5. Reveles Roofing
 **To:** info@revelesroofing.com
-**Subject:** Giving Reveles Roofing's website a modern refresh
+**Subject:** A 20-second look at Reveles Roofing's potential new homepage
 
 Hi Reveles Roofing team,
 
-I came across Reveles Roofing while researching Dallas-area roofers and took a look at your site.
-It's a good start, but the page looks like it hasn't been updated since 2021 and is still running
-over an unsecured (non-HTTPS) connection — both of which quietly cost you trust and clicks.
+I came across Reveles Roofing while researching Dallas-area roofers. Your site is a decent start,
+but it hasn't been updated since 2021 and still runs over an unsecured (non-HTTPS) connection —
+both quietly costing you trust and clicks.
 
-I redesign roofing websites into fast, modern, mobile-first landing pages built around one goal:
-getting more estimate requests.
+I attached a **20-second screen recording** of a landing page I built for a roofing company in
+Miami so you can see the quality up close. I'd redesign your homepage into the same kind of fast,
+modern, mobile-first page focused on one thing: more estimate requests.
 
-I'd happily redesign your homepage and send a free mockup first — no commitment until you like what
-you see. Can I put one together for you?
+Everything's done over email. If you like the video, reply and I'll send a free mockup of your
+redesigned page plus simple pricing — no calls, no commitment until you're happy.
 
 Best,
 [Your Name]
-[Your Studio] · [your phone] · [portfolio link]
+[Your Studio] · [your email/site]
 
 ---
 
 ## 6. FSR Services
 **To:** info@fsrservices.com
-**Subject:** Modernizing FSR Services' roofing page
+**Subject:** FSR Services — see a roofing site that actually wins jobs (20-sec clip)
 
 Hi FSR Services team,
 
-I help roofing contractors turn their websites into lead machines, and while looking around the
-Humble area I found your roofing page. The design feels quite dated compared to what homeowners
-expect today, and that first impression matters more than ever when someone's choosing who to trust
-with their roof.
+I found your roofing page while looking around the Humble area, and the design feels quite dated
+compared to what homeowners expect today — and that first impression decides who they trust with
+their roof.
 
-I'd love to redesign your current page into a clean, modern, mobile-first landing page — fast,
-professional, and built to drive quote requests.
+I attached a **20-second screen recording** of a landing page I built for a roofing company in
+Miami so you can see exactly the kind of result I deliver. I'd redesign your current page into the
+same clean, modern, mobile-first site built to drive quote requests.
 
-I can send you a free redesign mockup of the homepage so you can see the upgrade before deciding
-anything. Interested in a look?
+It can all be handled over email. If the video looks like what you want, just reply and I'll send a
+free mockup of your new homepage and a flat price to get it done. No calls.
 
 Best,
 [Your Name]
-[Your Studio] · [your phone] · [portfolio link]
+[Your Studio] · [your email/site]
 
 ---
 
 ## 7. HBC Roofing
 **To:** hbcroofing@outlook.com
-**Subject:** HBC Roofing — your site isn't mobile-friendly
+**Subject:** What HBC Roofing's site should look like on a phone (20-second video)
 
 Hi HBC Roofing team,
 
-I was researching roofers in Laredo and pulled up your website on my phone. It isn't built for
-mobile, so it's hard to read and navigate on a small screen — and since the majority of "roofer
-near me" searches happen on phones, that's likely costing you calls every week.
+I pulled up your website on my phone while researching roofers in Laredo — it isn't built for
+mobile, so it's hard to read and navigate on a small screen. Since most "roofer near me" searches
+happen on phones, that's likely costing you calls every week.
 
-I design modern, mobile-first landing pages for roofing companies that look sharp on any device and
-make it dead simple for homeowners to request a quote.
+I attached a **20-second screen recording** of a roofing landing page I built in Miami so you can
+see how sharp yours could look on any device. I'd redesign your site to match — fast, modern, and
+dead simple for homeowners to request a quote.
 
-I'd be glad to redesign your page and show you a free mockup first. Want me to send one over?
+We can do the whole thing over email. If you like the video, reply and I'll send a free mockup of
+your new homepage and straightforward pricing. No call needed.
 
 Best,
 [Your Name]
-[Your Studio] · [your phone] · [portfolio link]
+[Your Studio] · [your email/site]
 
 ---
 
 ## 8. Next Level Roofing
 **To:** victor@nextlevelroofingtx.com
-**Subject:** Taking Next Level Roofing's website to the next level
+**Subject:** Next Level Roofing deserves a next-level website — 20-sec proof attached
 
 Hi Victor,
 
-Great name — and I think your website should live up to it. I found Next Level Roofing while
-looking at Laredo-area contractors, and the current site feels dated and isn't doing your brand any
-favors compared to what homeowners expect today.
+Great name — and I think your website should live up to it. The current Next Level Roofing site
+feels dated and isn't doing your brand justice next to what homeowners expect today.
 
-I redesign roofing websites into modern, mobile-first landing pages built to turn visitors into
-estimate requests — fast loading, clean design, your work front and center.
+I attached a **20-second screen recording** of a landing page I built for a roofing company in
+Miami so you can see the level I work at. I'd redesign your site into the same kind of fast,
+modern, mobile-first page built to turn visitors into estimate requests.
 
-I'd happily put together a free redesign mockup of your homepage so you can see it before deciding
-anything. Worth 10 minutes this week?
+It's all handled over email — no calls. If the video looks like the direction you want, just reply
+and I'll send you a free mockup of your new homepage and a simple flat price.
 
 Best,
 [Your Name]
-[Your Studio] · [your phone] · [portfolio link]
+[Your Studio] · [your email/site]
 
 ---
 
 ## 9. Sunset Roofers
 **To:** estimates@sunsetroofers.com
-**Subject:** Sunset Roofers — Chrome is flagging your site as "Not Secure"
+**Subject:** Sunset Roofers — a secure, modern site in 20 seconds
 
 Hi Sunset Roofers team,
 
-I was looking at roofing companies in Laredo and noticed your website still runs without HTTPS — so
-visitors get a "Not Secure" warning in Chrome, and Google ranks unsecured sites lower. For a
-business built on trust, that's an easy thing to lose customers over.
+Quick heads up: your website still runs without HTTPS, so visitors see a "Not Secure" warning in
+Chrome and Google ranks the site lower. For a business built on trust, that's an easy way to lose
+customers before they ever read a word.
 
-I redesign roofing websites into secure, modern, mobile-first landing pages built to bring in more
-quote requests — and HTTPS comes standard.
+I attached a **20-second screen recording** of a roofing landing page I built in Miami so you can
+see what a secure, modern site looks like. I'd redesign yours into the same — fast, mobile-first,
+HTTPS standard, and built to bring in more quote requests.
 
-I'd be glad to redesign your homepage and send you a free mockup first, no obligation. Can I put one
-together for you?
+Everything's done over email. If you like the video, just reply and I'll send a free mockup of your
+new homepage and a flat price. No calls, no obligation.
 
 Best,
 [Your Name]
-[Your Studio] · [your phone] · [portfolio link]
+[Your Studio] · [your email/site]
 
 ---
 
 ## 10. Ideal Precision Roofing & Exteriors LLC
 **To:** michael@idealroofer.com
-**Subject:** Ideal Precision Roofing — your website needs some attention
+**Subject:** Michael, here's a 20-second look at your roofing site's upgrade
 
 Hi Michael,
 
-I found Ideal Precision Roofing while researching San Antonio roofers and took a close look at your
-site. A few things stood out: it's not secure (no HTTPS, so Chrome flags it), it isn't mobile-
-friendly, and the page comes up nearly empty — which means homeowners finding you online probably
-aren't seeing much reason to call.
+I took a close look at the Ideal Precision Roofing site and a few things stood out: it's not secure
+(no HTTPS, so Chrome flags it), it isn't mobile-friendly, and the page comes up nearly empty — so
+homeowners finding you online aren't seeing much reason to call.
 
-The good news: all of that is fixable, fast. I design modern, mobile-first landing pages for
-roofers that load instantly, look professional, and turn visitors into estimate requests.
+The good news: all of that is fixable, fast. I attached a **20-second screen recording** of a
+landing page I built for a roofing company in Miami so you can see exactly what yours could become —
+secure, modern, mobile-first, and built to turn visitors into estimate requests.
 
-I'd love to redesign your page and send you a free mockup first, so you can see the difference
-before spending a dollar. Open to a quick call this week?
+We can handle everything over email. If you like the video, just reply and I'll send you a free
+mockup of your redesigned homepage and a simple flat price. No call required.
 
 Best,
 [Your Name]
-[Your Studio] · [your phone] · [portfolio link]
+[Your Studio] · [your email/site]
