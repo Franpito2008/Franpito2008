@@ -1460,7 +1460,7 @@ contactForm.addEventListener('submit', (e) => {
 /* =========================================================
    VAPI AI VOICE RECEPTIONIST WIDGET
 ========================================================= */
-const VAPI_PUBLIC_KEY = "TU_NUEVA_PUBLIC_KEY";
+const VAPI_PUBLIC_KEY = "baff2900-058b-45b7-a411-886f22df7523";
 const VAPI_ASSISTANT_ID = "019f240b-5b9f-7007-8384-005ac7af455d";
 
 const voiceBtn = document.getElementById('voiceBtn');
@@ -1469,8 +1469,6 @@ const voiceStatus = document.getElementById('voiceStatus');
 const voiceClose = document.getElementById('voiceClose');
 const endCallBtn = document.getElementById('endCallBtn');
 
-let vapiLoaded = false;
-let vapiInstance = null;
 let callActive = false;
 
 function updateStatus(text){
@@ -1490,82 +1488,58 @@ function closePanel(){
   voicePanel.classList.remove('open');
 }
 
-function loadVapiAndStart(){
-  if (vapiLoaded){
-    startCall();
-    return;
-  }
+async function startVapiCall() {
   updateStatus('Connecting...');
-  const script = document.createElement('script');
-  script.src = 'https://cdn.jsdelivr.net/npm/@vapi-ai/web@latest/dist/vapi.sdk.js';
-  script.onload = () => {
-    vapiLoaded = true;
-    try {
-      vapiInstance = new Vapi(VAPI_PUBLIC_KEY);
+  try {
+    const { default: Vapi } = await import(
+      'https://cdn.jsdelivr.net/npm/@vapi-ai/web@2.0.0/dist/vapi.sdk.js'
+    );
+    const vapi = new Vapi(VAPI_PUBLIC_KEY);
 
-      vapiInstance.on('call-start', () => {
-        callActive = true;
-        updateStatus('Listening...');
-        setWidgetState('listening');
-      });
-      vapiInstance.on('speech-start', () => {
-        updateStatus('Speaking...');
-        setWidgetState('speaking');
-      });
-      vapiInstance.on('speech-end', () => {
-        updateStatus('Listening...');
-        setWidgetState('listening');
-      });
-      vapiInstance.on('call-end', () => {
-        callActive = false;
-        updateStatus("Call ended. We'll follow up with you soon!");
-        setWidgetState('idle');
-      });
-      vapiInstance.on('error', (e) => {
-        console.error('Vapi error:', e);
-        callActive = false;
-        setWidgetState('idle');
-        if (e && e.error && /permission|denied|NotAllowed/i.test(String(e.error.message || e.error))){
-          updateStatus('Microphone access was blocked. Please allow it in your browser settings and try again.');
-        } else {
-          updateStatus('Something went wrong. Please call us directly.');
-        }
-      });
-
-      window._vapiInstance = vapiInstance;
-      startCall();
-    } catch(err){
-      console.error(err);
-      updateStatus('Something went wrong. Please call us directly.');
-    }
-  };
-  script.onerror = () => {
-    updateStatus('Something went wrong. Please call us directly.');
-  };
-  document.head.appendChild(script);
-}
-
-function startCall(){
-  if (!vapiInstance) return;
-  updateStatus('Connecting...');
-  navigator.mediaDevices?.getUserMedia?.({ audio: true })
-    .then(() => {
-      vapiInstance.start(VAPI_ASSISTANT_ID);
-    })
-    .catch((err) => {
-      console.error(err);
-      updateStatus('Microphone access was blocked. Please allow it in your browser settings and try again.');
+    vapi.on('call-start', () => {
+      callActive = true;
+      setWidgetState('listening');
+      updateStatus('Listening...');
     });
+    vapi.on('speech-start', () => {
+      setWidgetState('speaking');
+      updateStatus('Speaking...');
+    });
+    vapi.on('speech-end', () => {
+      setWidgetState('listening');
+      updateStatus('Listening...');
+    });
+    vapi.on('call-end', () => {
+      callActive = false;
+      setWidgetState('idle');
+      updateStatus("Call ended. We'll follow up with you soon!");
+      window._vapiInstance = null;
+    });
+    vapi.on('error', (e) => {
+      console.error('VAPI ERROR:', JSON.stringify(e, null, 2));
+      callActive = false;
+      setWidgetState('idle');
+      updateStatus('Error: ' + (e?.message || JSON.stringify(e)));
+    });
+
+    await vapi.start(VAPI_ASSISTANT_ID);
+    window._vapiInstance = vapi;
+
+  } catch(err) {
+    console.error('Load error:', err);
+    setWidgetState('idle');
+    updateStatus('Error loading assistant: ' + err.message);
+  }
 }
 
 function openWidgetAndCall(){
   openPanel();
-  loadVapiAndStart();
+  startVapiCall();
 }
 
 function endCall(){
-  if (vapiInstance && callActive){
-    try { vapiInstance.stop(); } catch(e){}
+  if (window._vapiInstance && callActive){
+    try { window._vapiInstance.stop(); } catch(e){}
   }
   callActive = false;
   setWidgetState('idle');
